@@ -199,3 +199,10 @@ body {
     letter-spacing: 1px;
     opacity: 0.5;
 }
+
+.card__definition {
+    max-width: 75%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    letter-spacing: 1px;
+}
