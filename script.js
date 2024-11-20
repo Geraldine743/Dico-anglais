@@ -110,8 +110,6 @@ const renderToHTML = (data) => {
     audio.addEventListener ( 'ended', () => {
         button.classList.add ("card__player--off")
         button.classList.remove ("card__player--on")
-        audio.pause()
-        audio.currentSrc()
     })
 }
 // lancement du programme
